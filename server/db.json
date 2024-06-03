@@ -1,4 +1,11 @@
 {
-    "users": [],
-    "tasks": []
+  "users": [
+    {
+      "id": "d8dd",
+      "name": "PEPE",
+      "email": "edgar@crackdona.com",
+      "password": "U2FsdGVkX1/plKM+qEZgHy+mcsIed6j901BDK3qEpmk="
+    }
+  ],
+  "tasks": []
 }

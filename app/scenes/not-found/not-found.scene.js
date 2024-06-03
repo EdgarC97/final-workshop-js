@@ -1,4 +1,4 @@
-import styles from "./not-found-styles.css";
+import styles from "./not-found.styles.css";
 
 export function NotFoundScene() {
   const root = document.getElementById("root");
