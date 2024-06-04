@@ -13,7 +13,7 @@ export function Router() {
 
   if ( path === '/'){
     if (!localStorage.getItem('token')){
-      navigateTo('/login');
+      navigateTo('/home');
       return;
     }
   }

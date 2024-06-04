@@ -10,7 +10,6 @@ export function NavBarLayout(pageContent,logic) {
         <nav>
             <li><a href= "/tasks">Tasks</a></li>
             <li><a href= "/profile">Profile</a></li>
-            <li><a href= "/logout">Logout</a></li>
             ${logOut}
         </nav>
         ${pageContent}
