@@ -28,7 +28,7 @@ export function Router() {
 
   if (privateRoute) {
     if (localStorage.getItem('token')) {
-      const {pageContent,logic,} = privateRoute.scene();
+      const {pageContent,logic} = privateRoute.scene();
       NavBarLayout(pageContent,logic);
       return;
     }
